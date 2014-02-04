@@ -1,0 +1,159 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "schedule.xsl"?>
+<schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation = "schedule.xsd">
+	<semester>Spring</semester>
+	<year>2014</year>
+	<course>
+		<programid>CMSC</programid>
+		<number>203</number>
+		<title>Discrete Structures</title>
+		<credits>4</credits>
+		<gradingmethod>REG</gradingmethod>
+		<regconst>No Permission Required</regconst>
+		<section>
+			<specialtopicname></specialtopicname>
+			<instructor>Shiming Yang</instructor>
+			<schedulenumber>1064</schedulenumber>
+			<sectionnumber>02</sectionnumber>
+			<room>Sondheim 409</room>
+			<days>Tuesdays and Thursdays</days>
+			<start>7:10 PM</start>
+			<end>8:25 PM </end>
+		</section>
+		<section>
+			<specialtopicname></specialtopicname>
+			<instructor>Samuel Lomanaco</instructor>
+			<schedulenumber>1065</schedulenumber>
+			<sectionnumber>03</sectionnumber>
+			<room>Information Technology 227</room>
+			<days>Mondays and Wednesdays</days>
+			<start>1:00 PM</start>
+			<end>2:15 PM</end>
+		</section>
+		<section>
+			<specialtopicname></specialtopicname>
+			<instructor>Yaacov Yesha</instructor>
+			<schedulenumber>5061</schedulenumber>
+			<sectionnumber>04</sectionnumber>
+			<room>Information Technology 231</room>
+			<days>Tuesdays and Thursdays</days>
+			<start>1:00 PM</start>
+			<end>2:15 PM</end>
+		</section>
+		<section>
+			<specialtopicname></specialtopicname>
+			<instructor>Yaacov Yesha</instructor>
+			<schedulenumber>7451</schedulenumber>
+			<sectionnumber>05</sectionnumber>
+			<room>Sherman Hall 015</room>
+			<days>Tuesdays and Thursdays</days>
+			<start>4:00 PM</start>
+			<end>5:15 PM</end>
+		</section>
+		
+	</course>
+
+	
+	<course>
+		<programid>CMSC</programid>
+		<number>331</number>
+		<title>Principles of Programming Languages</title>
+		<credits>4</credits>
+		<gradingmethod>REG</gradingmethod>
+		<regconst>No Permission Required</regconst>
+		<section>
+			<specialtopicname></specialtopicname>
+			<instructor>Charles Nicholas</instructor>
+			<schedulenumber>1069</schedulenumber>
+			<sectionnumber>01</sectionnumber>
+			<room>Math and Pyschology 103</room>
+			<days>Tuesdays and Thursdays</days>
+			<start>4:00 PM</start>
+			<end>5:15 PM </end>
+		</section>		
+		
+		<section>
+			<specialtopicname></specialtopicname>
+			<instructor>Darlene Cross</instructor>
+			<schedulenumber>5831</schedulenumber>
+			<sectionnumber>02</sectionnumber>
+			<room>Information Technology 229</room>
+			<days>Tuesdays and Thursdays</days>
+			<start>7:10 PM</start>
+			<end>8:25 PM </end>
+		</section>
+	</course>	
+	
+	<course>
+		<programid>CMSC</programid>
+		<number>691</number>
+		<title>Special Topics in Computer Science</title>
+		<credits>3</credits>
+		<gradingmethod>REG</gradingmethod>
+		<regconst>Instructor Permission Required</regconst>
+		<section>
+			<specialtopicname>Semantic Web</specialtopicname>
+			<instructor>Timothy Finin</instructor>
+			<schedulenumber>5847</schedulenumber>
+			<sectionnumber>01</sectionnumber>
+			<room>Information Technology 233</room>
+			<days>Mondays and Wednesdays</days>
+			<start>2:30 PM</start>
+			<end>3:45 PM </end>
+		</section>		
+		<section>
+			<specialtopicname>Systems for Smart Home Automation</specialtopicname>
+			<instructor>Nilanjan Banerjee</instructor>
+			<schedulenumber>5985</schedulenumber>
+			<sectionnumber>02</sectionnumber>
+			<room>Sherman Hall 108</room>
+			<days>Mondays and Wednesdays</days>
+			<start>1:00 PM</start>
+			<end>2:15 PM </end>
+		</section>
+
+		<section>
+			<specialtopicname>Parallel / Distributed Processing</specialtopicname>
+			<instructor>Tyler Simon</instructor>
+			<schedulenumber>6145</schedulenumber>
+			<sectionnumber>03</sectionnumber>
+			<room>Sherman Hall 151</room>
+			<days>Tuesdays and Thursdays</days>
+			<start>4:00 PM</start>
+			<end>5:15 PM </end>
+		</section>
+		
+		<section>
+			<specialtopicname>Cybersecurity Research Seminar</specialtopicname>
+			<instructor>Alan Sherman</instructor>
+			<schedulenumber>7456</schedulenumber>
+			<sectionnumber>04</sectionnumber>
+			<room>Performing Arts and Humanities 108</room>
+			<days>Fridays</days>
+			<start>1:00 PM</start>
+			<end>3:30 PM </end>
+		</section>
+
+		<section>
+			<specialtopicname>Graphics for Games</specialtopicname>
+			<instructor>Thomas Olano</instructor>
+			<schedulenumber>7506</schedulenumber>
+			<sectionnumber>05</sectionnumber>
+			<room>Math and Psychology 104</room>
+			<days>Tuesdays and Thursdays</days>
+			<start>11:30 AM</start>
+			<end>12:45 PM </end>
+		</section>
+
+		<section>
+			<specialtopicname>Hadoop Based Distibuted Computing</specialtopicname>
+			<instructor>Adam Shook</instructor>
+			<schedulenumber>7510</schedulenumber>
+			<sectionnumber>06</sectionnumber>
+			<room>Sherman Hall 015</room>
+			<days>Mondays and Wednesdays</days>
+			<start>7:10 PM</start>
+			<end>8:25 PM </end>
+		</section>
+	</course>
+</schedule>

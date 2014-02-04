@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!--Definition of all simple elements like Program Indentifier, Course Number, Etc..-->
+
+<xs:element name = "programid" type = "xs:string"/>
+<xs:element name = "number" type = "xs:positiveInteger"/>
+<xs:element name = "title" type = "xs:string"/>
+<xs:element name = "credits" type = "xs:positiveInteger"/>
+<xs:element name = "gradingmethod" type = "xs:string"/>
+<xs:element name = "regconst" type = "xs:string"/>
+<xs:element name = "instructor" type = "xs:string"/>
+<xs:element name = "schedulenumber" type = "xs:positiveInteger"/>
+<xs:element name = "sectionnumber" type = "xs:positiveInteger"/>
+<xs:element name = "room" type = "xs:string"/>
+<xs:element name = "days" type = "xs:string"/>
+<xs:element name = "start" type = "xs:string"/>
+<xs:element name = "end" type = "xs:string"/>
+<xs:element name = "year" type = "xs:positiveInteger"/>
+<xs:element name = "semester" type = "xs:string"/>
+<xs:element name = "specialtopicname" type = "xs:string"/>
+<!-- Description for complex type section-->
+
+<xs:element name = "section">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref = "specialtopicname"/>
+			<xs:element ref = "instructor"/>
+			<xs:element ref = "schedulenumber"/>
+			<xs:element ref = "sectionnumber"/>
+			<xs:element ref = "room"/>
+			<xs:element ref = "days"/>
+			<xs:element ref = "start"/>
+			<xs:element ref = "end"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+
+<!-- Description for complex type course -->
+
+<xs:element name = "course">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref = "programid"/>
+			<xs:element ref = "number"/>
+			<xs:element ref = "title"/>
+			<xs:element ref = "credits"/>
+			<xs:element ref = "gradingmethod"/>
+			<xs:element ref = "regconst"/>
+			<xs:element ref = "section" minOccurs = "1"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+
+<!-- Description for Complex Type Schedule -->
+
+<xs:element name = "schedule">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref = "year"/>
+			<xs:element ref = "semester"/>
+			<xs:element ref = "course" maxOccurs = "unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>
